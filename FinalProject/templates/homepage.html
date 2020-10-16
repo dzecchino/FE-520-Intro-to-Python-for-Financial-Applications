@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <h1>Stock Market Information</h1>
+  <input id="symbol" type="text" class="form-control" placeholder="Enter Stock Ticker">
+  <button class="btn btn-outline-secondary" type="button" onclick="site.SubmitForm();">Display Info</button>
+  <p id="Company"></p>  
+  <p id="Ticker"></p>  
+  <p id="Price"></p>  
+  <p id="Volume"></p>  
+  <p id="Volume Avg"></p>    
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="{{url_for('static',filename='/site.js')}}"></script>
+</html>
